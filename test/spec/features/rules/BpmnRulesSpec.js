@@ -1590,7 +1590,7 @@ describe('features/modeling/rules - BpmnRules', function() {
         );
 
         // then
-        expect(canAttach).to.be.false;
+        expect(canAttach).to.eql('attach');
         expect(canCreate).to.be.false;
       }
     ));
